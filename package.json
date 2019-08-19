@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-pusher-push-notifications": "git+http://git@github.com/ZeptInc/react-native-pusher-push-notifications#v.2.4.1-zept-master"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
