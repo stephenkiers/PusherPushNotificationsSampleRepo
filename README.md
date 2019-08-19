@@ -14,3 +14,8 @@ So here are relevant portions of our app, you can look at the history of the app
 But, when I try to build... **22 Errors break the builds**
 
 ![Aug-19-2019 16-50-15](https://user-images.githubusercontent.com/1245512/63304782-80ec3e00-c2a1-11e9-9cb9-72909522a76d.gif)
+
+
+## Relevant Links
+- https://github.com/b8ne/react-native-pusher-push-notifications
+- https://github.com/pusher/push-notifications-swift
