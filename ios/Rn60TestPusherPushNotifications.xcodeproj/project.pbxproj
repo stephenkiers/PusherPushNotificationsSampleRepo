@@ -63,6 +63,7 @@
 		2D02E4901E0B4A5D006451C7 /* Rn60TestPusherPushNotifications-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rn60TestPusherPushNotifications-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FC6F3A4EEDBA27A637D6D3 /* libPods-Rn60TestPusherPushNotificationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rn60TestPusherPushNotificationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F3F20A230B583700537BA3 /* RNPusherPushNotifications.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPusherPushNotifications.xcodeproj; path = "../node_modules/react-native-pusher-push-notifications/ios/RNPusherPushNotifications.xcodeproj"; sourceTree = "<group>"; };
+		49F3F215230B5C4B00537BA3 /* Rn60TestPusherPushNotifications-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rn60TestPusherPushNotifications-Bridging-Header.h"; sourceTree = "<group>"; };
 		6787B26E8E3A4A7CFE01D3E7 /* Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Rn60TestPusherPushNotifications-tvOSTests/Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D8B67C8F4811143658247CA /* Pods-Rn60TestPusherPushNotifications-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rn60TestPusherPushNotifications-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Rn60TestPusherPushNotifications-tvOS/Pods-Rn60TestPusherPushNotifications-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7F8778C8D86E835843781600 /* libPods-Rn60TestPusherPushNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rn60TestPusherPushNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +143,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				49F3F215230B5C4B00537BA3 /* Rn60TestPusherPushNotifications-Bridging-Header.h */,
 			);
 			name = Rn60TestPusherPushNotifications;
 			sourceTree = "<group>";
@@ -309,6 +311,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1030;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -661,6 +666,7 @@
 			baseConfigurationReference = A1284157433A2A8B140F66EB /* Pods-Rn60TestPusherPushNotifications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = Rn60TestPusherPushNotifications/Info.plist;
@@ -672,6 +678,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Rn60TestPusherPushNotifications;
+				SWIFT_OBJC_BRIDGING_HEADER = "Rn60TestPusherPushNotifications-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -681,6 +690,7 @@
 			baseConfigurationReference = A1438C07CB7CA67610F2BFD2 /* Pods-Rn60TestPusherPushNotifications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Rn60TestPusherPushNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -691,6 +701,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Rn60TestPusherPushNotifications;
+				SWIFT_OBJC_BRIDGING_HEADER = "Rn60TestPusherPushNotifications-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
