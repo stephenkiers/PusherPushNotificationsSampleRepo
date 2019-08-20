@@ -608,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C33C89FE1CD7F0E886112D49 /* Pods-Rn60TestPusherPushNotificationsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = Rn60TestPusherPushNotificationsTests/Info.plist;
