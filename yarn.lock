@@ -5200,10 +5200,9 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
-react-native-pusher-push-notifications@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-pusher-push-notifications/-/react-native-pusher-push-notifications-2.1.0.tgz#2b24b02273116306234eee6a0c79779895dde985"
-  integrity sha512-MsGVArGg+O7Bkc4bVDBKTrnIJnMHSgqFDFPVKnPiyzvhIH9FlYlx4C9b0wqlX+4cgeaSkJ1SWpzWcnCpdv7dfA==
+"react-native-pusher-push-notifications@git+http://git@github.com/ZeptInc/react-native-pusher-push-notifications#6c905a9dff31c20aaecd3fdadafded389c65a047":
+  version "2.5.0"
+  resolved "git+http://git@github.com/ZeptInc/react-native-pusher-push-notifications#6c905a9dff31c20aaecd3fdadafded389c65a047"
 
 react-native@0.60.5:
   version "0.60.5"
