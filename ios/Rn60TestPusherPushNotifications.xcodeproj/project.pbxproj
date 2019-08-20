@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* Rn60TestPusherPushNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Rn60TestPusherPushNotificationsTests.m */; };
+		493A85CB230C628A00593B4B /* JustToMakeItWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A85CA230C628A00593B4B /* JustToMakeItWork.swift */; };
 		6C6C5525BAF91280370DE281 /* libPods-Rn60TestPusherPushNotificationsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356675220FCDF1CE779CEE0F /* libPods-Rn60TestPusherPushNotificationsTests.a */; };
 		A57B84899CE5765DD2712D6E /* libPods-Rn60TestPusherPushNotifications-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F5C55D76A962A51AF0DF84 /* libPods-Rn60TestPusherPushNotifications-tvOSTests.a */; };
 		F8B33F29EF69256A34627C63 /* libPods-Rn60TestPusherPushNotifications.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 486FBA6ECC552ADD26A0801A /* libPods-Rn60TestPusherPushNotifications.a */; };
@@ -56,6 +57,7 @@
 		2D02E4901E0B4A5D006451C7 /* Rn60TestPusherPushNotifications-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rn60TestPusherPushNotifications-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		356675220FCDF1CE779CEE0F /* libPods-Rn60TestPusherPushNotificationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rn60TestPusherPushNotificationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486FBA6ECC552ADD26A0801A /* libPods-Rn60TestPusherPushNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rn60TestPusherPushNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493A85CA230C628A00593B4B /* JustToMakeItWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustToMakeItWork.swift; sourceTree = "<group>"; };
 		49F3F215230B5C4B00537BA3 /* Rn60TestPusherPushNotifications-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rn60TestPusherPushNotifications-Bridging-Header.h"; sourceTree = "<group>"; };
 		6787B26E8E3A4A7CFE01D3E7 /* Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Rn60TestPusherPushNotifications-tvOSTests/Pods-Rn60TestPusherPushNotifications-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C93A1595DBF7EAAF13FA01C /* libPods-Rn60TestPusherPushNotifications-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rn60TestPusherPushNotifications-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				493A85CA230C628A00593B4B /* JustToMakeItWork.swift */,
 				13B07FAE1A68108700A75B9A /* Rn60TestPusherPushNotifications */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* Rn60TestPusherPushNotificationsTests */,
@@ -532,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				493A85CB230C628A00593B4B /* JustToMakeItWork.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C0CD99899912E264E23785E /* Pods-Rn60TestPusherPushNotificationsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
